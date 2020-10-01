@@ -1,0 +1,213 @@
+[
+  {
+    "line": 21,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-01T16:17:35.684Z",
+        "line": 23,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1281000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.CleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17372000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User opened browser",
+            "match": {
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.user_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28955000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.user_navigated_app_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19303000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Search for product \"Laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptop\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.user_searh_for_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Search Result page is displayed",
+            "match": {
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.search_result_page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-01T16:18:42.774Z",
+        "line": 30,
+        "name": "User is click on the Product and check the Product Details",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;user-is-click-on-the-product-and-check-the-product-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1704000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.CleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10423000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User opened browser",
+            "match": {
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.user_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12690000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.user_navigated_app_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12386000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Search for product \"Laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptop\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.user_searh_for_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click on any product",
+            "match": {
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.user_click_on_any_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16616000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Product Description is displayed in new tab",
+            "match": {
+              "location": "com.visionit.autotesting.stepdefs.StepDefs.product_description_is_Displayed_in_new_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          },
+          {
+            "name": "@t"
+          }
+        ]
+      }
+    ],
+    "name": "E-commerce Project Web Site Health Check",
+    "description": "",
+    "id": "e-commerce-project-web-site-health-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/HealthCheck.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 20,
+          "column": 1
+        }
+      },
+      {
+        "name": "@healthcheck",
+        "type": "Tag",
+        "location": {
+          "line": 20,
+          "column": 5
+        }
+      }
+    ]
+  }
+]
