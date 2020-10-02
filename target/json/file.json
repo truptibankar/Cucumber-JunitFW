@@ -3,7 +3,7 @@
     "line": 21,
     "elements": [
       {
-        "start_timestamp": "2020-10-01T16:17:35.684Z",
+        "start_timestamp": "2020-10-02T06:11:26.432Z",
         "line": 23,
         "name": "User is able to Open the browser, navigate to the URL and Search for Product",
         "description": "",
@@ -11,8 +11,9 @@
         "after": [
           {
             "result": {
-              "duration": 1281000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.visionit.autotesting.stepdefs.StepDefs.CleanUp(StepDefs.java:47)\r\n",
+              "duration": 1326000000,
+              "status": "failed"
             },
             "match": {
               "location": "com.visionit.autotesting.stepdefs.StepDefs.CleanUp()"
@@ -24,7 +25,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17372000000,
+              "duration": 18414000000,
               "status": "passed"
             },
             "line": 24,
@@ -36,8 +37,9 @@
           },
           {
             "result": {
-              "duration": 28955000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.visionit.autotesting.stepdefs.StepDefs.user_navigated_app_url(StepDefs.java:65)\r\n\tat ✽.User navigated to the home application url(file:///C:/Users/HP/eclipse-workspace/Cucumber-Junit/src/test/resources/FeatureFile/HealthCheck.feature:25)\r\n",
+              "duration": 14600000000,
+              "status": "failed"
             },
             "line": 25,
             "name": "User navigated to the home application url",
@@ -48,8 +50,8 @@
           },
           {
             "result": {
-              "duration": 19303000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 26,
             "name": "User Search for product \"Laptop\"",
@@ -66,8 +68,8 @@
           },
           {
             "result": {
-              "duration": 27000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 27,
             "name": "Search Result page is displayed",
@@ -87,7 +89,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-01T16:18:42.774Z",
+        "start_timestamp": "2020-10-02T06:12:00.977Z",
         "line": 30,
         "name": "User is click on the Product and check the Product Details",
         "description": "",
@@ -95,8 +97,9 @@
         "after": [
           {
             "result": {
-              "duration": 1704000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.visionit.autotesting.stepdefs.StepDefs.CleanUp(StepDefs.java:47)\r\n",
+              "duration": 714000000,
+              "status": "failed"
             },
             "match": {
               "location": "com.visionit.autotesting.stepdefs.StepDefs.CleanUp()"
@@ -108,7 +111,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10423000000,
+              "duration": 8594000000,
               "status": "passed"
             },
             "line": 31,
@@ -120,8 +123,9 @@
           },
           {
             "result": {
-              "duration": 12690000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.visionit.autotesting.stepdefs.StepDefs.user_navigated_app_url(StepDefs.java:65)\r\n\tat ✽.User navigated to the home application url(file:///C:/Users/HP/eclipse-workspace/Cucumber-Junit/src/test/resources/FeatureFile/HealthCheck.feature:32)\r\n",
+              "duration": 7839000000,
+              "status": "failed"
             },
             "line": 32,
             "name": "User navigated to the home application url",
@@ -132,8 +136,8 @@
           },
           {
             "result": {
-              "duration": 12386000000,
-              "status": "passed"
+              "duration": 4000000,
+              "status": "skipped"
             },
             "line": 33,
             "name": "User Search for product \"Laptop\"",
@@ -150,8 +154,8 @@
           },
           {
             "result": {
-              "duration": 997000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "line": 34,
             "name": "User click on any product",
@@ -162,8 +166,8 @@
           },
           {
             "result": {
-              "duration": 16616000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 35,
             "name": "Product Description is displayed in new tab",
